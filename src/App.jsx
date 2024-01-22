@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Home from "../Pages/Home";
-import Success from "../Pages/Success.jsx";
-import Notfound from "../Pages/Notfound.jsx";
+import Home from "./Pages/Home.jsx";
+import Success from "./Pages/Success.jsx";
+import Notfound from "./Pages/Notfound.jsx";
 
 const App = () => {
   return (
